@@ -76,22 +76,42 @@ body {
 }
 
 .jieshao {
+    #display: flex;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.js3 a {
+    height: 20px;
     display: flex;
-    height: 100px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(214, 218, 224);
+    padding-bottom: 15px;
+}
+
+.js1 {
+    margin-left: 38%;
+    height: 90px;
     justify-content: center;
     align-items: center;
     color: rgb(148, 127, 32);
-    font-size: 18px;
+    font-size: 48px;
 }
 
-.jieshao a {
-    height: 40px;
-    display: flex;
-    width: 700px;
+.js2 {
+    margin-left: 41%;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgb(214, 218, 224);
-    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.js3 {
+    margin-left: 21%;
+    justify-content: center;
+    align-items: center;
 }
 
 .neirong {
@@ -118,7 +138,7 @@ body {
 
 .mulu {
     display: flex;
-    height: 43px;
+    height: 40px;
     margin: 2px;
     padding: 5px;
     justify-content: center;
@@ -217,13 +237,13 @@ i.iconfont {
 
 .dlink {
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 
 .link {
     display: flex;
     margin: 10px;
-    width: 300px;
+    width: 100%;
     height: 50px;
     align-items: center;
     background-color: rgba(247, 247, 247, 0.822);
@@ -233,17 +253,28 @@ i.iconfont {
 
 }
 
-.link:hover {
+.link a {
+    color: #737373;
+    background: #cc833e;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.link a:hover {
     background-color: #ffe59d; /* 设置鼠标悬停时的背景颜色 */
 }
 
-.link a {
-    width: 500px;
+.link span {
+    width: 70%;
     font-size: 18px;
     margin: 5px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.9);
 }
+
+
 
 .ad {
     position: absolute;
@@ -463,33 +494,88 @@ footer {
     .ad {
         width: 0;
     }
-    .search-container {
-        margin-left: 0;
-        position: relative;
-        display: inline-block;
-        width: 250px; /* 可以根据需要调整宽度 */
-    }
 
     .lad {
         width: 0;
     }
 
-    .jieshao a {
-        width: 100%;
+    .jieshao {
+        #display: flex;
+        height: 110px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .js3 a {
+        height: 7px;
+        display: flex;
+        width: 370px;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgb(214, 218, 224);
+        padding-bottom: 15px;
+    }
+
+    .js1 {
+        margin-left: 8%;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        color: rgb(148, 127, 32);
+        font-size: 35px;
+    }
+
+    .js2 {
+        margin-left: 16%;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .js3 {
+        margin-left: 1%;
+        justify-content: center;
+        align-items: center;
     }
 
     .dlink {
+        display: flex;
         width: 100%;
     }
 
     .link {
-        width: auto;
-        margin: 5px;
+        display: flex;
+        margin: 10px;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        background-color: rgba(247, 247, 247, 0.822);
+        border-radius: 8px;
+        transition: background-color 1s;
+        cursor: pointer;
+
     }
 
     .link a {
-        width: auto;
+        color: #737373;
+        background: #cc833e;
+        padding: 2px 10px;
+        border-radius: 5px;
+        margin-right: 5px;
         font-size: 10px;
+        width: 15%;
+    }
+
+    .link a:hover {
+        background-color: #ffe59d; /* 设置鼠标悬停时的背景颜色 */
+    }
+
+    .link span {
+        width: 70%;
+        font-size: 10px;
+        margin: 5px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.9);
     }
 
     .neirong {
@@ -504,11 +590,12 @@ footer {
     }
 
     .xiazai {
+        margin-right: 3%;
         width: 75%;
     }
 
     .sidebar {
-        width: 25%;
+        width: 22%;
     }
 
     .mulu {
@@ -587,4 +674,72 @@ footer {
         width: 400px;
     }
 }
-  
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: linear-gradient(to bottom, #87CEEB, #B0E0E6); /* 浅天蓝色到水色，护眼色调 */
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    #text-align: center;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    #pointer-events: none; /* 禁止容器内的元素干扰鼠标点击事件 */
+}
+
+/* 鼠标点击效果 */
+.ripple {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgba(253, 0, 0, 0.7);
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+    pointer-events: none; /* 禁止涟漪效果干扰其他点击事件 */
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
+
+/* 雪花样式 */
+.snowflake {
+    position: absolute;
+    top: -50px; /* 初始位置在视口上方 */
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    transform: translateX(-50%) translateY(0) rotate(0deg);
+    animation: fall 2s linear infinite, rotate 5s linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateX(-50%) translateY(100vh) rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: translateX(-50%) translateY(0) rotate(0deg);
+    }
+    to {
+        transform: translateX(-50%) translateY(100vh) rotate(360deg);
+    }
+}
