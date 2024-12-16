@@ -29,41 +29,43 @@ body {
     outline: none; /* 移除默认的聚焦轮廓 */
 }
 
-/* 下拉菜单样式 */
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 0 0 5px 5px; /* 下拉菜单底部圆角 */
-    max-height: 200px;
-    overflow-y: auto;
-    display: none;
-    font-size: 16px;
-    z-index: 1;
+.suggestion-item {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 0.822);
+    border-radius: 8px;
+    transition: background-color 1s;
+    cursor: pointer;
 }
-
-/* 下拉菜单选项样式 */
-.dropdown-menu a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    border-bottom: 1px solid #f0f0f0; /* 选项间的分隔线 */
-}
-
-/* 最后一个选项样式，移除底部边框 */
-.dropdown-menu a:last-child {
-    border-bottom: none;
-}
-
-/* 选项鼠标悬停样式 */
-.dropdown-menu a:hover {
+.suggestion-item:hover {
     background-color: #f0f0f0;
 }
-
+.suggestion-content {
+    flex-grow: 1;
+    width: 70%;
+    font-size: 18px;
+    margin: 5px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+}
+.suggestion-buttons {
+    display: flex;
+    gap: 5px;
+}
+.a {
+    color: #737373;
+    background: #cc833e;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.a:hover {
+    background-color: #ffe59d; /* 设置鼠标悬停时的背景颜色 */
+}
 @media screen and (max-width: 1280px) {
     .search-container {
         margin-left: 22%;

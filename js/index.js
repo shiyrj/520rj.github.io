@@ -162,6 +162,16 @@ function replaceContent(value) {
         document.getElementById("jieyagj").style = "background-color: rgb(212, 115, 25); transition: background-color 0.5s ease 0s;";
         xhr.open('GET', 'ruanjian/jieyagj.html'); // 设置请求类型、地址等信息
     }
+    if (value === '解压工具') {
+        removeStyle();
+        document.getElementById("jieyagj").style = "background-color: rgb(212, 115, 25); transition: background-color 0.5s ease 0s;";
+        xhr.open('GET', 'ruanjian/jieyagj.html'); // 设置请求类型、地址等信息
+    }
+    if (value === '软件下载教程') {
+        removeStyle();
+        document.getElementById("xzjc").style = "background-color: rgb(212, 115, 25); transition: background-color 0.5s ease 0s;";
+        xhr.open('GET', 'ruanjian/xzjc.html'); // 设置请求类型、地址等信息
+    }
     if (value === '系统') {
         removeStyle();
         document.getElementById("xitong").style = "background-color: rgb(212, 115, 25); transition: background-color 0.5s ease 0s;";
