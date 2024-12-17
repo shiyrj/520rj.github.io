@@ -1,17 +1,17 @@
 // 本地数据，包括名称和对应的链接
 const data = [
-    { name: 'Adobe 2025全家桶', link1: 'https://pan.xunlei.com/s/VOB5rug0hSYdcDgWM9Rabd4zA1?pwd=sqbu#', link2: '#' },
-    { name: 'Adobe 2024全家桶', link1: 'https://pan.xunlei.com/s/VNqvPYjEjiKYJL6I2T5x1tEZA1?pwd=2b22#', link2: '#' },
-    { name: 'Adobe 2023全家桶', link1: 'https://pan.quark.cn/s/138467ac99c1', link2: '#' },
-    { name: 'Adobe 2022全家桶', link1: 'https://pan.xunlei.com/s/VNrA0ieY4ASlDvG20ze1GGVmA1?pwd=8mxf#', link2: '#' },
-    { name: 'Adobe 2021全家桶', link1: 'https://pan.xunlei.com/s/VNrA0m_x2QOsWr-7uJdRL7yoA1?pwd=8mvt#', link2: '#' },
-    { name: 'Adobe 2020全家桶', link1: 'https://pan.xunlei.com/s/VNrA0qrCLJHDpCKMnC4wQXmDA1?pwd=tg7y#', link2: '#' },
-    { name: 'Adobe 2019全家桶', link1: 'https://pan.xunlei.com/s/VNrA0w1mC3DWufWRhvGfj9NgA1?pwd=rjud#', link2: '#' },
-    { name: 'Adobe 2018全家桶', link1: 'https://pan.xunlei.com/s/VNrA1-8dqGsvO8IvWyPaZql4A1?pwd=sevd#', link2: '#' },
-    { name: 'Photoshop 2025', link1: 'https://pan.xunlei.com/s/VO9jSN6T9xPofLT-PNjzmpyHA1?pwd=k7me#', link2: '#' },
-    { name: 'Photoshop 2024', link1: 'https://pan.xunlei.com/s/VOCn4xw6MRX4g6LqqHf2klyOA1?pwd=w2xz#', link2: '#' },
-    { name: 'Photoshop 2023', link1: 'https://pan.quark.cn/s/f4599a1c6626', link2: '#' },
-    { name: 'Photoshop 2022', link1: 'https://pan.quark.cn/s/124f058f60c6', link2: '#' },
+    { name: 'Adobe 2025全家桶', link1: 'https://pan.xunlei.com/s/VOEIRhnG4Ya62p5mkrjh2i07A1?pwd=wubh#', link2: '#' },
+    { name: 'Adobe 2024全家桶', link1: 'https://pan.xunlei.com/s/VOEISY63JT9qrwPnhuWoKVSrA1?pwd=394u#', link2: '#' },
+    { name: 'Adobe 2023全家桶', link1: 'https://pan.xunlei.com/s/VOEISdD_keaC4Rnt4ItiOy1wA1?pwd=9k8y#', link2: '#' },
+    { name: 'Adobe 2022全家桶', link1: 'https://pan.xunlei.com/s/VOEIUKSo8YakUoKzRvHyRAdpA1?pwd=czm6#', link2: '#' },
+    { name: 'Adobe 2021全家桶', link1: 'https://pan.xunlei.com/s/VOEIUTB9CkjvYimnTGWvXZiwA1?pwd=f4ma#', link2: '#' },
+    { name: 'Adobe 2020全家桶', link1: 'https://pan.xunlei.com/s/VOEIUacX8YakUoKzRvHyRIF4A1?pwd=tccz#', link2: '#' },
+    { name: 'Adobe 2019全家桶', link1: 'https://pan.xunlei.com/s/VOEIUklzzkZkQ432H1zRQPOLA1?pwd=hiwi#', link2: '#' },
+    { name: 'Adobe 2018全家桶', link1: 'https://pan.xunlei.com/s/VOEIUqeBRLgaEjUv-8JqOjjNA1?pwd=828j#', link2: '#' },
+    { name: 'Photoshop 2025', link1: 'https://pan.xunlei.com/s/VOEIVCEPkeaC4Rnt4ItiPv8BA1?pwd=aeum#', link2: '#' },
+    { name: 'Photoshop 2024', link1: 'https://pan.xunlei.com/s/VOEIVHVMHtBWt6akwBrXCGBKA1?pwd=x2kq#', link2: '#' },
+    { name: 'Photoshop 2023', link1: 'https://pan.xunlei.com/s/VOEIVMwJf47rQvePICwLpUIIA1?pwd=kvbe#', link2: '#' },
+    { name: 'Photoshop 2022', link1: 'https://pan.xunlei.com/s/VOEIVR_8imJ5xX98QGS_QvBoA1?pwd=innc#', link2: '#' },
     // ... 更多数据项
 ];
 
