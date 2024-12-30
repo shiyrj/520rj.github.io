@@ -135,6 +135,12 @@ const data = [
     { name: 'AutoCAD 2005', link1: 'https://pan.xunlei.com/s/VOEbh8SEHOlVD9uHyIm2Mud-A1?pwd=hbsk#', link2: '#' },
     { name: 'AutoCAD 2004', link1: 'https://pan.xunlei.com/s/VOEbhG0FHTqVnGx-4AZjJvX0A1?pwd=abyh#', link2: '#' },
 
+    { name: 'Revit 2025', link1: 'https://pan.xunlei.com/s/VNv2wbx9ViPDZJnmTOwAn91zA1?pwd=wnu8#', link2: '#' },
+    { name: 'Revit 2024', link1: 'https://pan.xunlei.com/s/VNrOtmlNHRrfIS2BMJozJcPTA1?pwd=fvzx#', link2: '#' },
+
+    { name: '3ds max 2025', link1: 'https://pan.xunlei.com/s/VNudtv_Du7HmrImYf-QpVSSOA1?pwd=9cg2#', link2: '#' },
+    { name: '3ds max 2024', link1: 'https://pan.xunlei.com/s/VNo2IKdmuQjsmR6LqTH1iHYQA1?pwd=jspn', link2: '#' },
+
     { name: 'office 2024', link1: 'https://pan.xunlei.com/s/VOEOA0u1yW52-XDWc3olEygYA1?pwd=jpmf#', link2: '#' },
     { name: 'office 2021', link1: 'https://pan.xunlei.com/s/VOEOAFk-aKWSHPujNYOs1Un0A1?pwd=xqf2#', link2: '#' },
     { name: 'office 2019', link1: 'https://pan.xunlei.com/s/VOEOAMK9cl5bUtA6PbiCN3c8A1?pwd=ifh4#', link2: '#' },
