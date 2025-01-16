@@ -278,11 +278,11 @@ i.iconfont {
 
 .ad {
     position: absolute;
-    top: 190px;
-    margin-left: 10px;
+    top: 150px;
+    margin-left: 1px;
     /*margin-left: 82%;*/
     display: none;
-    width: 19%;
+    width: 20.5%;
 }
 
 .ad img {
