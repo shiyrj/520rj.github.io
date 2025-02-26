@@ -168,12 +168,12 @@ const data = [
     { name: 'Bandizip', link1: 'https://pan.quark.cn/s/fd768678a466', link2: '#' },
     { name: '7-zip', link1: 'https://pan.quark.cn/s/1ce8ccfb6d2f', link2: '#' },
 
-    { name: 'SPSS 27', link1: 'https://pan.xunlei.com/s/VOAhBcP27TZlOOUcRUPoJmAvA1?pwd=y9nz#', link2: '#' },
-    { name: 'SPSS 26', link1: 'https://pan.xunlei.com/s/VOAhBXzqc5vChKVXk73jQO1FA1?pwd=u9hi#', link2: '#' },
+    { name: 'SPSS 27', link1: 'https://pan.xunlei.com/s/VOK1WKUf1dnOQdJUR8wY48TSA1?pwd=888k#', link2: '#' },
+    { name: 'SPSS 26', link1: 'https://pan.xunlei.com/s/VOK1WSvOLabnIa0hobqPfr6DA1?pwd=qu7e#', link2: '#' },
 
-    { name: 'MathType 7.7', link1: 'https://pan.xunlei.com/s/VNwTyGEAB9GPSEtCyUEoUA4YA1?pwd=z8sb#', link2: '#' },
-    { name: 'MathType 7.4', link1: 'https://pan.xunlei.com/s/VNwTyLX-w-Qq-Zi4RKNij-6LA1?pwd=dsi8#', link2: '#' },
-    { name: 'MathType 6.9', link1: 'https://pan.xunlei.com/s/VNwTyQB8cTOAOE7Tsmjx7RTWA1?pwd=asaf#', link2: '#' },
+    { name: 'MathType 7.7', link1: 'https://pan.xunlei.com/s/VOK1WYYtDMMSQ69holBY_cv4A1?pwd=7k6w#', link2: '#' },
+    { name: 'MathType 7.4', link1: 'https://pan.xunlei.com/s/VOK1WaM2H0HwFgqGFw-fUW_-A1?pwd=75ak#', link2: '#' },
+    { name: 'MathType 6.9', link1: 'https://pan.xunlei.com/s/VOK1WcdMBLuFAOsXl8H4HAp6A1?pwd=5vav#', link2: '#' },
 
     { name: 'Origin 2024', link1: 'https://pan.xunlei.com/s/VOAMX1wBI4RHNmN5x4mfd-ppA1?pwd=6i83#', link2: '#' },
     { name: 'Origin 2022', link1: 'https://pan.xunlei.com/s/VNv2rKLCFRyhSGY7pwhBT9AeA1?pwd=psd8#', link2: '#' },
@@ -182,7 +182,7 @@ const data = [
     { name: 'Matlab 2024B', link1: 'https://pan.xunlei.com/s/VO6l0ECzbr92W59lM--GaPG2A1?pwd=9npg#', link2: '#' },
     { name: 'Matlab 2024A', link1: 'https://pan.xunlei.com/s/VO4G2iS3b7yi3DgovT_EXhQ6A1?pwd=9bfh#', link2: '#' },
 
-    { name: 'CorelDRAW（CDR）安装包集合', link1: 'https://pan.xunlei.com/s/VOIThS2jZYP5QNdpQ67pyN6zA1?pwd=9tjx#', link2: '#' },
+    { name: 'CorelDRAW（CDR）安装包集合', link1: 'https://pan.xunlei.com/s/VOK1WnN-H0HwFgqGFw-fUdxeA1?pwd=9m27#', link2: '#' },
 
     { name: 'EndNote 21.5', link1: 'https://pan.xunlei.com/s/VOCJTgGxvHb0be1H8lAAykyNA1?pwd=n59g#', link2: '#' },
     { name: 'EndNote X9', link1: 'https://pan.xunlei.com/s/VOCYYQitV4ytDNzMKk-YR_qxA1?pwd=w8by#', link2: '#' },
